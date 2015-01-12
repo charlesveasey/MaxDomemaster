@@ -1,5 +1,5 @@
 # MaxDomemaster
-Domemaster patch for Max/Jitter
+Domemaster patch for Max/Jitter.
 
 To Use:
 See 'domemaster-example.maxpat' for use.
