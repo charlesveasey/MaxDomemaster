@@ -47,7 +47,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 46.0, 108.5, 25.0, 25.0 ]
+					"patching_rect" : [ 46.0, 124.5, 25.0, 25.0 ]
 				}
 
 			}
@@ -883,12 +883,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-56",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 46.0, 80.5, 248.0, 20.0 ],
-					"text" : "jit.gl.render domemaster @blend_enable 1"
+					"patching_rect" : [ 46.0, 80.5, 248.0, 33.0 ],
+					"text" : "jit.gl.render domemaster @blend_enable 1 @erase_color 0. 0. 0. 1."
 				}
 
 			}
