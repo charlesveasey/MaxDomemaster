@@ -35,7 +35,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 46.0, 46.342102, 25.0, 25.0 ]
 				}
 
@@ -231,12 +231,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-21",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 15.0, 120.0, 527.0, 20.0 ],
-									"text" : "jit.gl.model domemaster @rotatexyz -90. 0. 90. @position 0.75 0. 0. @scale 0.985 @two_sided 0"
+									"patching_rect" : [ 15.0, 120.0, 664.0, 33.0 ],
+									"text" : "jit.gl.model domemaster @rotatexyz -90. 0. 90. @position 0.75 0. 0. @scale 0.985 @two_sided 0 @material_mode 0 @color 1 1 1 1"
 								}
 
 							}
@@ -370,12 +371,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-21",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 14.0, 120.0, 530.0, 20.0 ],
-									"text" : "jit.gl.model domemaster @rotatexyz 90. 180. 0. @position 0. 0.75 0. @scale 0.985 @two_sided 0"
+									"patching_rect" : [ 14.0, 120.0, 650.0, 33.0 ],
+									"text" : "jit.gl.model domemaster @rotatexyz 90. 180. 0. @position 0. 0.75 0. @scale 0.985 @two_sided 0 @material_mode 0 @color 1 1 1 1"
 								}
 
 							}
@@ -509,12 +511,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-21",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 16.0, 128.0, 523.0, 20.0 ],
-									"text" : "jit.gl.model domemaster @rotatexyz -90. 0. 0. @position 0. -0.75 0. @scale 0.985 @two_sided 0"
+									"patching_rect" : [ 16.0, 128.0, 630.0, 33.0 ],
+									"text" : "jit.gl.model domemaster @rotatexyz -90. 0. 0. @position 0. -0.75 0. @scale 0.985 @two_sided 0 @material_mode 0 @color 1 1 1 1"
 								}
 
 							}
@@ -648,12 +651,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-21",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 15.0, 120.0, 484.0, 20.0 ],
-									"text" : "jit.gl.model domemaster @rotatexyz -90 0 0 @position 0. 0. 0. @scale 0.5 @two_sided 0"
+									"patching_rect" : [ 15.0, 120.0, 591.0, 33.0 ],
+									"text" : "jit.gl.model domemaster @rotatexyz -90 0 0 @position 0. 0. 0. @scale 0.5 @two_sided 0 @material_mode 0 @color 1 1 1 1"
 								}
 
 							}
@@ -737,7 +741,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 965.0, 45.0, 715.0, 162.0 ],
+						"rect" : [ 598.0, 187.0, 715.0, 162.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -787,12 +791,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-21",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 18.0, 124.0, 535.0, 20.0 ],
-									"text" : "jit.gl.model domemaster @rotatexyz -90. 0. -90. @position -0.75 0. 0. @scale 0.985 @two_sided 0"
+									"patching_rect" : [ 18.0, 124.0, 652.0, 33.0 ],
+									"text" : "jit.gl.model domemaster @rotatexyz -90. 0. -90. @position -0.75 0. 0. @scale 0.985 @two_sided 0 @material_mode 0 @color 1 1 1 1"
 								}
 
 							}
