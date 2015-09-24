@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 311.0, 45.0, 709.0, 526.0 ],
+		"rect" : [ 910.0, 337.0, 709.0, 526.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 46.0, 221.109009, 153.0, 20.0 ],
+					"text" : "receive domemaster_node"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -65,7 +79,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 534.0, 237.0, 118.0, 18.0 ],
-					"presentation_rect" : [ 422.0, 222.109009, 0.0, 0.0 ],
 					"text" : "drawto domemaster"
 				}
 
@@ -81,7 +94,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 547.0, 274.0, 105.0, 45.0 ],
-					"presentation_rect" : [ 542.0, 253.0, 0.0, 0.0 ],
 					"text" : "blend_enable 1, depth_enable 0, texture mask"
 				}
 
@@ -96,7 +108,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 369.0, 237.0, 77.0, 18.0 ],
-					"presentation_rect" : [ 318.0, 265.0, 0.0, 0.0 ],
 					"text" : "drawto none"
 				}
 
@@ -962,7 +973,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_gl_texture", "", "" ],
-					"patching_rect" : [ 46.0, 235.0, 212.0, 20.0 ],
+					"patching_rect" : [ 46.0, 243.0, 212.0, 20.0 ],
 					"text" : "jit.gl.node domemaster @name #2"
 				}
 
@@ -1173,6 +1184,15 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
